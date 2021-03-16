@@ -1,3 +1,5 @@
+// WITH LABDA
+
 interface Test {
     void print();
 }
@@ -11,6 +13,7 @@ public class Anonymous {
     }
 }
 
+// WITHOUT LABDA (uncomment the code below and comment the code above)
 
 // class Test {
 //     void print(){
