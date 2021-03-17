@@ -29,6 +29,12 @@ public class HashMapDemo {
     if (map.containsKey("b")) {
       System.out.println("Key is present! Value is:" + map.get("b"));
     }
+    System.out.println();
+    System.out.println();
+
+    System.out.println("All keys:" + map.keySet());
+    System.out.println("All values:" + map.values());
+
   }
 }
 
