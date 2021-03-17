@@ -8,8 +8,11 @@ class LinkedListDemo {
 
     ll.addFirst(0.0);
     ll.addFirst(3.14);
+
     System.out.println(ll);
+
     System.out.println(ll.removeFirst());
 
+    System.out.println(ll);
   }
 }

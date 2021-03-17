@@ -8,6 +8,7 @@ public class RmiClient {
       Adder stub = (Adder) Naming.lookup("rmi://localhost:5000/john");
       System.out.println(stub.add(34, 4));
     } catch (Exception e) {
+      System.out.println(e);
     }
 
   }
