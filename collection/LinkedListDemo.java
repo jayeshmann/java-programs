@@ -1,6 +1,6 @@
 package Collection;
 
-import java.util.*;
+import java.util.LinkedList;
 
 class LinkedListDemo {
   public static void main(String[] args) {
