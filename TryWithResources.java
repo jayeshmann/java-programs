@@ -1,10 +1,12 @@
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 
 public class TryWithResources {
-  public static void main(String args[]) {
+  public static void main(String args[]) throws FileNotFoundException {
 
+    FileOutputStream fos = new FileOutputStream("./abc.txt");
 
-    try (FileOutputStream fos = new FileOutputStream("./abc.txt")) {
+    try (fos) {
       String str = "Java new feature";
       byte b[] = str.getBytes();
       fos.write(b);
